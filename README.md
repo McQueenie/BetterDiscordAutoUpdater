@@ -13,7 +13,7 @@ This is a simple batch script that automates the process of updating BetterDisco
 2. Run the script as Administrator.
 3. Wait for the process to complete and Discord will restart automatically.
 
-> **Note:** The cleanup section is commented out; it crashed the whole installation process, not fixed yet.
+> **Note:** You can also add it to startup scripts to automatically update BetterDiscord on each PC launch. The cleanup section is commented out; it crashed the whole installation process, not fixed yet.
 
 ## Disclaimer
 
