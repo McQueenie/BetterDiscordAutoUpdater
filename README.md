@@ -17,4 +17,4 @@ This is a simple batch script that automates the process of updating BetterDisco
 
 ## Disclaimer
 
-This script is unofficial and provided "as is". Use at your own risk.
+This script is unofficial and provided "as is". Use at your own risk. It was created following "Manual Installation" guide on: https://docs.betterdiscord.app/users/getting-started/installation.
