@@ -9,7 +9,7 @@ This is a simple batch script that automates the process of updating BetterDisco
 
 ## How to Use
 
-1. Save the script as `update-betterdiscord.bat`.
+1. Save the script as `update-betterdiscord.bat`/`update-betterdiscord.sh`.
 2. Run the script as Administrator.
 3. Wait for the process to complete and Discord will restart automatically.
 
