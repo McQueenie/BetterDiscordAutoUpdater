@@ -6,14 +6,9 @@ pkill -f Discord
 
 # Variables setup
 REPO_URL="https://github.com/BetterDiscord/BetterDiscord.git"
-TEMP_DIR="/tmp/BDInstaller"
-
-# Create temporary directory
-mkdir -p $TEMP_DIR
-cd $TEMP_DIR
 
 echo "Cloning BetterDiscord repository from $REPO_URL"
-git clone $REPO_URL
+git clone --single-branch -b main $REPO_URL
 cd BetterDiscord
 
 echo "Installing BetterDiscord"
