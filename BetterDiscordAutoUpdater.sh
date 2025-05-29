@@ -7,13 +7,14 @@ pkill -f "Discord" 2>/dev/null
 
 # Variables setup
 REPO_URL="https://github.com/BetterDiscord/BetterDiscord.git"
+USERNAME="<enter your username here>"
 FOLDER_NAME="BetterDiscord"
 
 # Check if BetterDiscord folder exists and has .git
 if [ -d "$FOLDER_NAME" ]; then
     if [ -d "$FOLDER_NAME/.git" ]; then
         echo "Found existing BetterDiscord repository, pulling latest changes..."
-        cd "$FOLDER_NAME"
+        cd "/Users/$USERNAME/Library/Application Support"
         git pull origin main
         if [ $? -ne 0 ]; then
             echo "Git pull failed, trying to reclone..."
