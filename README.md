@@ -1,7 +1,7 @@
 # BetterDiscord Auto-Updater Script
 
 This is a simple batch script that automates the process of updating BetterDiscord by closing Discord, cloning the latest version from the official repository, building it, injecting it, and restarting Discord.
-
+> **Important:** Script must be where the BetterDiscord folder is, by default on windows in Appdata/Roaming
 ## Prerequisites
 
 - [Git](https://git-scm.com/downloads)
