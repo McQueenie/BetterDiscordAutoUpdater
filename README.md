@@ -5,8 +5,7 @@ This is a simple batch script that automates the process of updating BetterDisco
 ## Prerequisites
 
 - [Git](https://git-scm.com/downloads)
-- [Node.js](https://nodejs.org/) with [pnpm](https://pnpm.io/)
-- [Bun](https://bun.sh/) (even though it's not listed officialy)
+- [pnpm](https://pnpm.io/)
 
 ## How to Use
 
